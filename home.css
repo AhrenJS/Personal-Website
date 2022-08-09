@@ -10,6 +10,7 @@
 	--light-gold: rgb(224, 178, 92);
 	--gradient-duration: 10s;
 	--sky-color: rgb(237, 194, 168);
+	--section-color: rgb(237, 224, 213);
 }
 
 *,
@@ -288,7 +289,7 @@ section {
 	justify-content: center;
 	align-items: center;
 	font-weight: bold;
-	color: rgb(237, 224, 213);
+	color: var(--section-color)
 	font-size: 1em;
 	letter-spacing: 2pt;
 }
@@ -533,6 +534,7 @@ nav ul li:nth-child(3) {
 }
 
 .or_alternative {
+	color: var(--section-color)
 	font-size: 0.7em;
 	display: flex;
 	justify-content: center;
@@ -543,7 +545,6 @@ nav ul li:nth-child(3) {
 
 .or_alternative a {
 	text-decoration: none;
-	color: white;
 }
 
 /* for if screen is too small */
