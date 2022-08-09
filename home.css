@@ -473,15 +473,6 @@ nav ul li:nth-child(3) {
 	border-radius: 0.5em;
 }
 
-.or_alternative {
-	font-size: 0.7em;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	margin-top: 10vh;
-}
-
 .accordion_label {
   padding: 1em 1.5em;
 }
@@ -500,13 +491,13 @@ nav ul li:nth-child(3) {
 	font-weight: 700;
 	background-color: transparent;
 	transition: background 0.2s;
-  }
+}
 
-  .accordion_label:hover {
+.accordion_label:hover {
 	background-color: rgba(255, 255, 255,0.1);
-  }
+}
 
-  .accordion_label::after {
+.accordion_label::after {
 	content: "";
 	position: absolute;
 	top: 50%;
@@ -518,28 +509,42 @@ nav ul li:nth-child(3) {
 	clip-path: polygon(0 0, 50% 100%, 100% 0);
 	background-size: contain;
 	transition: transform 0.2s;
-  }
+}
 
-  .accordion_content {
+.accordion_content {
 	line-height: 1.5;
 	font-size: 0;
 	transform: scaleY(0);
 	transform-origin: top;
 	transition: transform 1s;
-  }
-  
-  .accordion_input {
+}
+
+.accordion_input {
 	display: none;
-  }
-  
-  .accordion_input:checked ~ .accordion_content {
+}
+
+.accordion_input:checked ~ .accordion_content {
 	font-size: 0.8em;
 	transform: scaleY(1);
-  }
-  
-  .accordion_input:checked ~ .accordion_label::after {
+}
+
+.accordion_input:checked ~ .accordion_label::after {
 	transform: translateY(-50%) rotate(180deg);
-  }
+}
+
+.or_alternative {
+	font-size: 0.7em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 10vh;
+}
+
+.or_alternative a {
+	text-decoration: none;
+	color: white;
+}
 
 /* for if screen is too small */
 @media screen and (max-width: 224px), screen and (max-height: 300px) {
