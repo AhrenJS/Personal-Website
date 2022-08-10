@@ -550,6 +550,7 @@ nav ul li:nth-child(3) {
 	font-size: 1.5em;
 	border-left: 1px solid var(--lighter-gold);
 	padding: 0.5em;
+	overflow: hidden;
 }
 
 .cv_link::after {
