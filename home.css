@@ -547,6 +547,8 @@ nav ul li:nth-child(3) {
 	text-decoration: none;
 	color: var(--section-color);
 	font-size: 1.5em;
+	border-left: 1px solid var(--lighter-gold);
+	padding: 0.5em;
 }
 
 /* for if screen is too small */
