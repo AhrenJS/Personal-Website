@@ -559,10 +559,12 @@ nav ul li:nth-child(3) {
 	width: 100%;
 	bottom: 0;
 	top: 0;
-	left: 0;
+	left: -100%;
+	transition: 0.3s ease-in-out;
 }
 
 .cv_link:hover::after {
+	left: calc(100% - 1px);
 }
 
 /* for if screen is too small */
