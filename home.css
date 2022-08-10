@@ -543,12 +543,20 @@ nav ul li:nth-child(3) {
 	margin-top: 10vh;
 }
 
-.or_alternative a {
+.cv_link {
 	text-decoration: none;
+	position:relative;
 	color: var(--section-color);
 	font-size: 1.5em;
 	border-left: 1px solid var(--lighter-gold);
 	padding: 0.5em;
+}
+
+.cv_link::after {
+	content:"";
+	position: absolute;
+	background: var(--lighter-gold);
+	width: 100%;
 }
 
 /* for if screen is too small */
