@@ -568,6 +568,19 @@ nav ul li:nth-child(3) {
 	left: calc(100% - 1px);
 }
 
+.cv_link::before {
+	content: "";
+	position: absolute;
+	background: var(--lighter-gold);
+	width: 50%;
+	border-top: 1px solid var(--lighter-gold);
+	border-bottom: 1px solid var(--lighter-gold);
+	bottom: 0;
+	top: 0;
+	right: 0;
+	transition: 0.3s ease-in-out;
+}
+
 /* for if screen is too small */
 @media screen and (max-width: 224px), screen and (max-height: 300px) {
 	header, nav, content, button {
