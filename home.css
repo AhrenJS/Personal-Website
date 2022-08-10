@@ -289,7 +289,7 @@ section {
 	justify-content: center;
 	align-items: center;
 	font-weight: bold;
-	color: var(--section-color)
+	color: var(--section-color);
 	font-size: 1em;
 	letter-spacing: 2pt;
 }
