@@ -557,6 +557,12 @@ nav ul li:nth-child(3) {
 	position: absolute;
 	background: var(--lighter-gold);
 	width: 100%;
+	bottom: 0;
+	top: 0;
+	left: 0;
+}
+
+.cv_link:hover::after {
 }
 
 /* for if screen is too small */
