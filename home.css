@@ -791,13 +791,21 @@ figure img {
 	}
 	.accordion {
 		max-width: 80vw;
+		font-size: 1.5em;
+	}
+	.or_alternative {
+		font-size: 1em;
+		margin-top: 2vh;
 	}
 	.section2 {
 		flex-direction: column;
-		border: 1px solid white;
 	}
-	.img_container {
-		display: block;
+	figure {
+		display: none;
+	}
+	.certificate_link {
+		font-size: 1em;
+		margin-top: 5vh;
 	}
 	/* for portrait mode */
 }
