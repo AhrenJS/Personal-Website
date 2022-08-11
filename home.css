@@ -789,6 +789,9 @@ figure img {
 		right: 1.5em;
 		top: 1.5em;
 	}
+	.img_container {
+		display: none;
+	}
 	/* for portrait mode */
 }
 
