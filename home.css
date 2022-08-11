@@ -789,8 +789,15 @@ figure img {
 		right: 1.5em;
 		top: 1.5em;
 	}
+	.accordion {
+		max-width: 80vw;
+	}
 	.section2 {
 		flex-direction: column;
+		border: 1px solid white;
+	}
+	.img_container {
+		display: block;
 	}
 	/* for portrait mode */
 }
