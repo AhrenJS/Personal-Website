@@ -807,4 +807,7 @@ figure img {
 	button i {
 		font-size: clamp(0.5em, 0.75em + 0.75vw, 1.25em);
 	}
+	figure {
+		max-height: 30vh;
+	}
 }
