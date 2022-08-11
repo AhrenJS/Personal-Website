@@ -608,7 +608,7 @@ figure img {
 .accordion_content p {
 	padding: 0 1.5em;
 	margin-top: 0;
-	font-size: 0.8em;
+	font-size: 0.9em;
 }
 
 .accordion_content a {
@@ -685,6 +685,10 @@ figure img {
 	border-left: 1px solid var(--lighter-gold);
 	padding: 0.5em;
 	overflow: hidden;
+}
+
+.cv_link:hover {
+	color: white;
 }
 
 .cv_link::after {
@@ -791,10 +795,17 @@ figure img {
 	}
 	.accordion {
 		max-width: 80vw;
-		font-size: 1.5em;
+		font-size: 2em;
+	}
+	.accordion_content p {
+		padding: 1em 1.5em;
+	}
+	.accordion_content ul {
+		margin-bottom: 1.5em;
+		margin-top: 0;
 	}
 	.or_alternative {
-		font-size: 1em;
+		font-size: 1.25em;
 		margin-top: 2vh;
 	}
 	.section2 {
@@ -804,7 +815,7 @@ figure img {
 		display: none;
 	}
 	.certificate_link {
-		font-size: 1em;
+		font-size: 2.25em;
 		margin-top: 5vh;
 	}
 	/* for portrait mode */
