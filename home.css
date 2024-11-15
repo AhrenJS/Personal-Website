@@ -588,6 +588,19 @@ figure img {
 	font-size: 0.4em;
 }
 
+.learn-more {
+	margin: 1em;
+}
+
+.extra-about {
+	font-size: 0.4em;
+	text-align: center;
+}
+
+.section3 {
+	flex-direction: column;
+}
+
 .accordion {
 	margin: 0 auto;
 	max-width: 50vw;
